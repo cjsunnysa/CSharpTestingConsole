@@ -24,11 +24,11 @@ namespace OutputConsole._1_Parameters
                 Console.WriteLine($"Declare b = {b}");
                 Console.WriteLine($"Declare c = {c}");
 
-                Console.WriteLine("Call ManipulateParameters.");
+                Console.WriteLine("Call ManipulateParameters");
 
                 ManipulateParameters(a, ref b, out c);
 
-                Console.WriteLine("Return from ManipulateParameters.");
+                Console.WriteLine("Return from ManipulateParameters");
                 Console.WriteLine($"a = {a}");
                 Console.WriteLine($"b = {b}");
                 Console.WriteLine($"c = {c}");
@@ -44,7 +44,7 @@ namespace OutputConsole._1_Parameters
         private void ManipulateParameters(int x, ref int y, out int z)
         {
             x += 20;
-            y += 20; 
+            y += 20;
             
             // not possible
             // z += 20;
